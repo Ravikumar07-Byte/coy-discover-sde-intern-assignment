@@ -1,0 +1,16 @@
+{
+  "name": "coy-discover-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "coy-discover": "file:..",
+    "express": "^4.19.2"
+  }
+}

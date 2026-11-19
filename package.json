@@ -1,0 +1,14 @@
+{
+  "name": "coy-discover",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Coy SDE Intern assignment: swipe-based Discover tab",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -k -n api,web \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run build && npm start --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "devDependencies": { "concurrently": "^9.0.0" }
+}
