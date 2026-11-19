@@ -1,5 +1,7 @@
 # Coy · Discover Tab
 
+🚀 Live Demo: https://coy-discover-demo.onrender.com
+
 A mobile-first, swipe-based profile discovery experience built for the **Coy SDE Intern Assignment (Part B)**.
 
 Part A, containing two proposed product improvements, is documented in [`PART_A_FEATURES.md`](./PART_A_FEATURES.md).
@@ -10,6 +12,16 @@ Part A, containing two proposed product improvements, is documented in [`PART_A_
 - **Backend:** Node.js, Express
 - **Data Persistence:** JSON-file storage
 - **Testing:** Node.js built-in test runner
+
+## Live Deployment
+
+The application is deployed on Render and can be accessed here:
+
+**Live Application:** https://coy-discover-demo.onrender.com
+
+**Source Code:** https://github.com/Ravikumar07-Byte/coy-discover-sde-intern-assignment
+
+The application runs as a React frontend served by a Node.js and Express backend.
 
 ## Getting Started
 
